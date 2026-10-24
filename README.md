@@ -1,3 +1,30 @@
+> [!IMPORTANT]
+> **Community fork — work in progress.** This repository is a fork of [Toxblh/MTMR](https://github.com/Toxblh/MTMR). The locally customized source code has **not yet been imported** into this fork. At present, the code is inherited from upstream, with additional documentation. Do not assume the enhancements below are available in the current checkout or releases.
+
+# MTMR — Apple Silicon enhancements (community fork)
+
+[Español](README.es.md) · [Original project](https://github.com/Toxblh/MTMR) · [Automatic group closing](docs/automatic-group-closing.md) · [Apple Silicon build notes](docs/apple-silicon-build.md)
+
+This fork is intended to document and share local improvements to **My TouchBar My Rules** for MacBook Pro Touch Bar users.
+
+### Planned enhancements and status
+
+| Area | Status |
+| --- | --- |
+| Automatic closing of expanded Touch Bar groups after an item action | Documented; local implementation pending import and verification |
+| Apple Silicon (`arm64`) and universal (`arm64` + `x86_64`) build workflow | Draft guide; reproducible builds pending verification |
+| Local ad hoc signing and macOS Accessibility setup | Draft guidance; installation validation pending |
+| Example short-press ⌘Q / long-press ⌘W configuration | Local customization; example not yet published |
+| CPU measurements | Diagnostic background only; **no performance improvement claimed** |
+
+**Current releases and Homebrew links in the upstream README below refer to the original project, not to a verified binary of this fork.** No custom binary is published here yet.
+
+The original MIT license, upstream authorship, and original README are retained below.
+
+---
+
+## Original MTMR README (upstream)
+
 # My touchbar. My rules. [![GitHub release](https://img.shields.io/github/release/toxblh/MTMR.svg)](https://github.com/Toxblh/MTMR/releases) [![license](https://img.shields.io/github/license/Toxblh/MTMR.svg)](https://github.com/Toxblh/MTMR/blob/master/LICENSE) ![minimal system requirements](https://img.shields.io/badge/required-macOS%2010.12.2-blue.svg) ![travis](https://travis-ci.org/Toxblh/MTMR.svg?branch=master)
 
 <img src="Resources/logo.png" align="right"
